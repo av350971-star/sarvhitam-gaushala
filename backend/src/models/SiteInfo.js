@@ -1,0 +1,38 @@
+import mongoose from "mongoose";
+
+const siteInfoSchema = new mongoose.Schema(
+  {
+    name: {
+      type: String,
+      default: "सर्व हितम सेवा गौशाला",
+    },
+    address: {
+      type: String,
+      default: "ग्राम संदलपुर, खातेगांव, देवास, मध्य प्रदेश",
+    },
+    phone: {
+      type: String,
+      default: "6232786661",
+    },
+    email: {
+      type: String,
+      default: "sarvahitamsevasamiti@gmail.com",
+    },
+    whatsapp: {
+      type: String,
+      default: "6232786661",
+    },
+    mapLink: {
+      type: String,
+      default: "https://www.google.com/maps/search/?api=1&query=Sandalpur+Khategaon+Dewas+Madhya+Pradesh",
+    },
+    about: {
+      type: String,
+      default:
+        "सर्व हितम सेवा गौशाला (ग्राम संदलपुर, खातेगांव, देवास) बेसहारा, वृद्ध एवं बीमार गौवंश की सेवा, समुचित उपचार और संरक्षण के लिए समर्पित है।",
+    },
+  },
+  { timestamps: true }
+);
+
+export default mongoose.model("SiteInfo", siteInfoSchema);
