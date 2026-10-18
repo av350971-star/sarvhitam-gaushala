@@ -72,6 +72,23 @@ app.use(express.urlencoded({ extended: true, limit: "25mb" }));
 // Static uploads directory
 app.use("/uploads", express.static(path.join(__dirname, "../uploads")));
 
+// Auto-connect database for serverless requests (Vercel)
+let isSeeded = false;
+app.use(async (req, res, next) => {
+  if (req.path.startsWith("/api")) {
+    try {
+      const isConnected = await connectDB();
+      if (isConnected && !isSeeded) {
+        isSeeded = true;
+        await seedInitialData();
+      }
+    } catch (err) {
+      console.error("Database connection/seed error:", err.message);
+    }
+  }
+  next();
+});
+
 // Health Check
 app.get("/api/health", (req, res) => {
   res.json({
@@ -105,14 +122,6 @@ if (fs.existsSync(frontendDist)) {
     res.sendFile(path.join(frontendDist, "index.html"));
   });
 }
-
-// Auto-connect database for serverless requests (Vercel)
-app.use(async (req, res, next) => {
-  if (req.path.startsWith("/api")) {
-    await connectDB();
-  }
-  next();
-});
 
 // Error Handler
 app.use(errorHandler);
