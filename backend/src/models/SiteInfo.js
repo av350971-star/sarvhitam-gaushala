@@ -24,7 +24,7 @@ const siteInfoSchema = new mongoose.Schema(
     },
     mapLink: {
       type: String,
-      default: "https://www.google.com/maps/search/?api=1&query=Sandalpur+Khategaon+Dewas+Madhya+Pradesh",
+      default: "https://maps.app.goo.gl/xQVzdzKsbNcNTSX3A?g_st=aw",
     },
     about: {
       type: String,

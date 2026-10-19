@@ -27,7 +27,7 @@ export const seedInitialData = async () => {
         email: "sarvahitamsevasamiti@gmail.com",
         whatsapp: "6232786661",
         mapLink:
-          "https://www.google.com/maps/search/?api=1&query=Sandalpur+Khategaon+Dewas+Madhya+Pradesh",
+          "https://maps.app.goo.gl/xQVzdzKsbNcNTSX3A?g_st=aw",
         about:
           "सर्व हितम सेवा गौशाला समिति (ग्राम संदलपुर, खातेगांव, देवास) बेसहारा, वृद्ध एवं बीमार गौवंश की सेवा, समुचित उपचार और संरक्षण के लिए समर्पित है।",
       });
