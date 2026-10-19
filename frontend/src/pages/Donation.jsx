@@ -22,11 +22,10 @@ export default function Donation() {
     <div>
       <PageHeader title="डोनेशन करें" subtitle="आपका छोटा सा सहयोग बड़ा बदलाव ला सकता है।" />
       <div className="container-page py-14">
-        <div className="mx-auto flex max-w-3xl items-start gap-2 rounded-xl bg-marigold-400/10 px-4 py-3 text-sm text-brown-600">
-          <Info className="mt-0.5 h-4 w-4 shrink-0 text-marigold-500" aria-hidden="true" />
-          <p>
-            यह एक डेमो पेज है — यहाँ अभी कोई वास्तविक भुगतान प्रणाली (payment
-            gateway) जुड़ी हुई नहीं है।
+        <div className="mx-auto flex max-w-3xl items-start gap-2.5 rounded-xl bg-pasture-50 border border-pasture-100 px-4 py-3.5 text-sm text-pasture-700 shadow-soft">
+          <Info className="mt-0.5 h-4 w-4 shrink-0 text-pasture-600" aria-hidden="true" />
+          <p className="font-medium leading-relaxed">
+            गौ सेवा के लिए आप सीधे दिए गए UPI QR Code या बैंक खाते के माध्यम से सहयोग राशि भेज सकते हैं।
           </p>
         </div>
 
