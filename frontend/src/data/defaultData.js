@@ -4,14 +4,14 @@
 // single source of truth for "what does empty/fresh state look like".
 
 export const defaultSiteInfo = {
-  name: "सर्व हितम सेवा गौशाला",
+  name: "सर्व हितम सेवा गौशाला समिति",
   address: "ग्राम संदलपुर, खातेगांव, देवास, मध्य प्रदेश",
   phone: "6232786661",
   email: "sarvahitamsevasamiti@gmail.com",
   whatsapp: "6232786661",
   mapLink: "https://www.google.com/maps/search/?api=1&query=Sandalpur+Khategaon+Dewas+Madhya+Pradesh",
   about:
-    "सर्व हितम सेवा गौशाला (ग्राम संदलपुर, खातेगांव, देवास) बेसहारा, वृद्ध एवं बीमार गौवंश की सेवा, समुचित उपचार और संरक्षण के लिए समर्पित है।",
+    "सर्व हितम सेवा गौशाला समिति (ग्राम संदलपुर, खातेगांव, देवास) बेसहारा, वृद्ध एवं बीमार गौवंश की सेवा, समुचित उपचार और संरक्षण के लिए समर्पित है।",
 };
 
 // value: null means "not yet set" — the public site shows a placeholder

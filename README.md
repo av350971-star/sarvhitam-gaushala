@@ -1,4 +1,4 @@
-# सर्व हितम सेवा गौशाला — Full-Stack (Frontend + Backend)
+# सर्व हितम सेवा गौशाला समिति — Full-Stack (Frontend + Backend)
 
 ## 📁 Project Structure
 

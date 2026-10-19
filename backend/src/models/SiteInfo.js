@@ -4,7 +4,7 @@ const siteInfoSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      default: "सर्व हितम सेवा गौशाला",
+      default: "सर्व हितम सेवा गौशाला समिति",
     },
     address: {
       type: String,
@@ -29,7 +29,7 @@ const siteInfoSchema = new mongoose.Schema(
     about: {
       type: String,
       default:
-        "सर्व हितम सेवा गौशाला (ग्राम संदलपुर, खातेगांव, देवास) बेसहारा, वृद्ध एवं बीमार गौवंश की सेवा, समुचित उपचार और संरक्षण के लिए समर्पित है।",
+        "सर्व हितम सेवा गौशाला समिति (ग्राम संदलपुर, खातेगांव, देवास) बेसहारा, वृद्ध एवं बीमार गौवंश की सेवा, समुचित उपचार और संरक्षण के लिए समर्पित है।",
     },
   },
   { timestamps: true }

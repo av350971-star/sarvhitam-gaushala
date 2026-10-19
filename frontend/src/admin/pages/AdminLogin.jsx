@@ -122,7 +122,7 @@ export default function AdminLogin() {
           <LogoMark className="h-12 w-12" />
           <h1 className="mt-3 font-display text-2xl text-brown-800">Admin Login</h1>
           <p className="mt-1 text-sm text-brown-400">
-            सर्व हितम सेवा गौशाला CMS
+            सर्व हितम सेवा गौशाला समिति CMS
           </p>
         </div>
 

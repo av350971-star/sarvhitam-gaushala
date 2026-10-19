@@ -19,7 +19,7 @@ export default function TopBar() {
         {/* Center: tagline — hidden on small screens to avoid crowding */}
         <p className="hidden md:flex items-center gap-1.5 text-cream-200 whitespace-nowrap">
           <Heart className="h-3.5 w-3.5 text-marigold-400" aria-hidden="true" />
-          <span>गौ सेवा ही मानव सेवा है</span>
+          <span>सेवा ही धर्म है, करुणा ही पहचान है</span>
         </p>
 
         {/* Right: contact details */}

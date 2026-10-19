@@ -40,16 +40,16 @@ export default function Hero() {
             className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-sm text-cream-50 backdrop-blur-sm animate-fade-in-up"
           >
             <span aria-hidden="true">🐄</span>
-            <span>{siteInfo?.name ? `${siteInfo.name} में आपका स्वागत है` : "सर्व हितम सेवा गौशाला में आपका स्वागत है"}</span>
+            <span>{siteInfo?.name ? `${siteInfo.name} में आपका स्वागत है` : "सर्व हितम सेवा गौशाला समिति में आपका स्वागत है"}</span>
           </div>
 
           {/* Heading */}
           <h1
             className="mt-5 font-display text-5xl font-bold leading-[1.1] text-white sm:text-6xl lg:text-7xl animate-fade-in-up [animation-delay:120ms]"
           >
-            गौ सेवा ही
+            सेवा ही धर्म है,
             <br />
-            मानव सेवा है
+            करुणा ही पहचान है
           </h1>
 
           {/* Supporting copy */}

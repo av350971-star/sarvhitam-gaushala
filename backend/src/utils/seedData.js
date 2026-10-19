@@ -21,7 +21,7 @@ export const seedInitialData = async () => {
     const siteInfoCount = await SiteInfo.countDocuments();
     if (siteInfoCount === 0) {
       await SiteInfo.create({
-        name: "सर्व हितम सेवा गौशाला",
+        name: "सर्व हितम सेवा गौशाला समिति",
         address: "ग्राम संदलपुर, खातेगांव, देवास, मध्य प्रदेश",
         phone: "6232786661",
         email: "sarvahitamsevasamiti@gmail.com",
@@ -29,7 +29,7 @@ export const seedInitialData = async () => {
         mapLink:
           "https://www.google.com/maps/search/?api=1&query=Sandalpur+Khategaon+Dewas+Madhya+Pradesh",
         about:
-          "सर्व हितम सेवा गौशाला (ग्राम संदलपुर, खातेगांव, देवास) बेसहारा, वृद्ध एवं बीमार गौवंश की सेवा, समुचित उपचार और संरक्षण के लिए समर्पित है।",
+          "सर्व हितम सेवा गौशाला समिति (ग्राम संदलपुर, खातेगांव, देवास) बेसहारा, वृद्ध एवं बीमार गौवंश की सेवा, समुचित उपचार और संरक्षण के लिए समर्पित है।",
       });
       console.log(" Default SiteInfo initialized");
     }
